@@ -8,7 +8,9 @@ const Home = () => {
 	return (
 		<div>
 			<Navbar/>
-			<Jumbo/>
+			<div className="container mt-4">
+				<Jumbo/>
+			</div>
 			<div className="container mt-4">
 				<div className="row">
 					<div className="col">
